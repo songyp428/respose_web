@@ -147,6 +147,137 @@ header .main ul li a.active{
     width:100%;
 }
 
+/* 交易信息 */
+.transtion{
+    width:100%;
+    background-color: #7c7365;
+}
+
+.tran-content{
+    max-width: 90%;
+    margin:0 auto;
+    font-size: 1.5rem;
+}
+
+.tran-data{
+    float:left;
+    padding:1rem;
+    text-align: left;
+}
+
+.tran-data span{
+    display: inline-block;
+    line-height: 3rem;
+    color: #fff;
+}
+
+.tran-data .trans-money{
+    font-size: 2.2rem;
+    color:#ff9900;
+    letter-spacing: 3px;
+    margin:0 1rem;
+    padding:0 1rem;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow:1px 2px 1px #333 inset;
+}
+
+.trans-report{
+    text-align: right;
+}
+
+.trans-report a{
+    display: inline-block;
+    padding: 1rem;
+    line-height: 3rem;
+    color: #fff;
+}
+
+/* 广告ad */
+.ad{
+    display: none;
+}
+
+.feature{
+    width:90%;
+    margin:2rem auto;
+    font-size:0; /* 减去空白符的间隙 */
+}
+
+.feature .item{
+    display: inline-block;
+    width:calc(33.333333333% - 3rem);
+    padding:1rem;
+    font-size:1.4rem;
+    background-color: #fff;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.feature .item + .item{
+    margin-left: 1.5rem;
+}
+
+.feature .item h3{
+    display: inline-block;
+    width:40%;
+    margin:0;
+    padding: 0;
+    vertical-align: top;
+    font-size: 3.3rem;
+    text-align: center;
+    color:#ff9900;
+}
+
+.feature .item p{
+    display: inline-block;
+    width: 55%;
+    margin:0;
+    padding:0;
+    color:#999;
+}
+
+/* 最新公告 */
+
+.notice{
+    width:90%;
+    margin:2rem auto;
+    font-size:1.4rem;
+    line-height: 3rem;
+    background-color: #fff;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.notice a{
+    float:left;
+    display: inline-block;
+    width:70%;
+    margin-left:2rem;
+    text-decoration: none;
+}
+
+.notice a:first-child{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.notice a:first-child:before{
+    content:'最新公告：\00a0\00a0';
+    color:#aaa;
+}
+
+.notice a span{
+    color:#999;
+    font-size:1.2rem;
+    margin-right:1rem;
+}
+
+.notice a.more{
+    float:right;
+    width:auto;
+    margin-right:2rem;
+    color:#ff9900;
+}
 /* 底部导航footer */
 footer{
     width:100%;
